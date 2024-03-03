@@ -1,4 +1,13 @@
 {
   "name": "BeautyProj",
-  "displayName": "BeautyProj"
+  "displayName": "BeautyProj",
+  "plugins": [
+    [
+      "react-native-vision-camera",
+      {
+        "cameraPermissionText": "$(PRODUCT_NAME) needs access to your Camera."
+      }
+    ],
+    "react-native-reanimated/plugin"
+  ]
 }
